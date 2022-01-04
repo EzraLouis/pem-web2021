@@ -13,7 +13,7 @@
     <script>
         function loadContent(){
             var xhr = new XMLHttpRequest();
-            var url = "http://localhost/ajax_files/kode.json";
+            var url = "http://devel56.dinustek.com/aboe/materi/data/kode.json";
             xhr.onreadystatechange = function(){
                 if(this.readyState == 4 && this.status == 200){
                     document.getElementById("hasil").innerHTML = this.responseText;
