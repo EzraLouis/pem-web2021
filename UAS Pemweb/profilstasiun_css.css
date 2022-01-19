@@ -1,0 +1,146 @@
+footer .kontak img{
+    width: 50px;
+    margin: 25px;
+    align-items: baseline;
+}
+
+footer{
+    color: white;
+    display: flex;
+    background: black;
+    height: 130px;
+    width: 100%;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    padding: 5px;
+    position: absolute;
+    height: 221px;
+    left: 0px;
+    top: 1235px;
+}
+
+footer div .tentang{
+    width: 115.4px;
+    height: 14.2px;
+    left: 95px;
+    top: 849px;
+    
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    
+    color: #FFFFFF;
+}
+
+footer div p{
+    width: 219px;
+    height: 119px;
+    left: 95px;
+    top: 873px;
+    text-align: left;
+    margin-top: 12px;
+
+    font-family: Yaldevi Colombo SemiBold;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+
+    color: #FFFFFF;
+}
+
+footer div .kontak{
+    width: 115.4px;
+    height: 14.2px;
+    left: 458px;
+    top: 849px;
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+}
+
+footer .logo img{
+    width: 100%;
+}
+
+.tengah .isi h3{
+    position: absolute;
+    width: 100%;
+    height: 59px;
+    top: 184px;
+    justify-content: center;
+    
+    font-family: Tomorrow;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35pt;
+    line-height: 58px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #000000;
+}
+
+.tengah .kiri{
+    position: absolute;
+    width: 22%;
+    margin: 70px;
+    padding: 20px;
+    left: 153px;
+    top: 305px;
+}
+
+.tengah .kiri p{
+    margin: 2px;
+    padding: 2px;
+    font-family: Timmana;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 31pt;
+    line-height: 90px;
+    text-align: center;
+}
+
+.tengah .kiri img{
+    border-radius: 100%;
+    filter: drop-shadow(12px 10px 10px rgba(0, 0, 0, 0.6));
+}
+
+.kanan{
+    position: absolute;
+    width: 988px;
+    height: 771px;
+    left: 800px;
+    top: 281px;
+
+    background: #C4C4C4;
+    border-radius: 60px;
+    border: 2px solid #000000;
+    box-sizing: border-box;
+    box-shadow: 10px 8px 8px rgba(0, 0, 0, 0.6);
+}
+
+.kanan .kotak .teks{
+    margin: 16px;
+    padding: 16px;
+    font-size: 14pt;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.kanan .kotak .teks p{
+    margin: 12px;
+    padding: 4px;
+}

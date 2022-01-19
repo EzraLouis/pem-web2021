@@ -1,0 +1,78 @@
+.tengah .isi h4{
+    font-size: 50px;
+    margin: 20px;
+    padding: 8px 18px;
+    text-align: center;
+    align-items: center;
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.tengah .isi .sap1, .tengah .isi .sap3{
+    justify-content: center;
+    margin: 15px;
+    padding: 8px;
+    display: flex;
+}
+
+.tengah .isi .sap2{
+    display: flex;
+    margin: 1px;
+    padding: 1px;
+    justify-content: center;
+}
+
+.tengah .isi .sap1 img, .tengah .isi .sap3 img{
+    border-radius: 100%;
+    height: fit-content;
+    margin: 1px;
+    margin-left: 45px;
+    margin-right: 45px;
+    padding: 1px;
+    width: 15%;
+    height: 268px;
+    border-radius: 100%;
+    display: flex;
+}
+
+.tengah .isi .sap2 p{
+    font-size: 14pt;
+    margin: 1px;
+    margin-left: 145px;
+    margin-right: 142px;
+    padding: 1px;
+    display: flex;
+}
+
+.tengah .isi .sap4{
+    display: flex;
+    text-align: center;
+    justify-items: center;
+    margin: 1px;
+    padding: 1px;
+    margin-left: 247px;
+}
+
+.tengah .isi .sap4 p{
+    font-size: 14pt;
+    margin: 1px;
+    margin-left: 243px;
+    padding: 1px;
+    display: flex;
+}
+
+.tengah .isi .sap5{
+    margin: 15px;
+    padding: 8px;
+    display: flex;
+    margin-left: 295px;
+}
+
+.tengah .isi .sap5 p{
+    font-size: 14pt;
+    text-align: center;
+    margin: 1px;
+    margin-left: 256px;
+    padding: 1px;
+    display: flex;
+}

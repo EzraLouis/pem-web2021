@@ -1,0 +1,126 @@
+.isi .box1 img{
+    position: absolute;
+    width: 916px;
+    height: 728px;
+    left: 0px;
+    top: 133px;
+    background: none;
+    box-shadow: inset 0px 0px 0px rgba(0, 0, 0, 0.25);
+}
+
+.isi .box1 p{
+    position: absolute;
+    width: 538.67px;
+    height: 561.49px;
+    left: 254px;
+    top: 190px;
+    
+    font-family: Wendy One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 100px;
+    line-height: 95px;
+    display: flex;
+    align-items: center;
+    
+    color: #FFFFFF;
+}
+
+.isi .box2 img{
+    position: absolute;
+    width: 395px;
+    height: 404px;
+    left: 1300px;
+    top: 134px;
+
+    background: none;
+    box-shadow: inset 0px 0px 0px rgba(0, 0, 0, 0.8);
+}
+
+.isi .box3 img{
+    position: absolute;
+    width: 291px;
+    height: 361px;
+    left: 1003px;
+    top: 569px;
+
+    background: none;
+    box-shadow: inset 0px 0px 0px rgba(0, 0, 0, 0.25);
+}
+
+footer .kontak img{
+    width: 50px;
+    margin: 25px;
+    align-items: baseline;
+}
+
+footer{
+    color: white;
+    display: flex;
+    background: black;
+    height: 130px;
+    width: 100%;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    padding: 5px;
+    position: absolute;
+    height: 221px;
+    left: 0px;
+    top: 859px;
+}
+
+footer div .tentang{
+    width: 115.4px;
+    height: 14.2px;
+    left: 95px;
+    top: 849px;
+    
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    
+    color: #FFFFFF;
+}
+
+footer div p{
+    width: 219px;
+    height: 119px;
+    left: 95px;
+    top: 873px;
+    text-align: left;
+    margin-top: 12px;
+
+    font-family: Yaldevi Colombo SemiBold;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+
+    color: #FFFFFF;
+}
+
+footer div .kontak{
+    width: 115.4px;
+    height: 14.2px;
+    left: 458px;
+    top: 849px;
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+}
+
+footer .logo img{
+    width: 100%;
+}

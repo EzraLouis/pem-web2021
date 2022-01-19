@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="radio_css.css">
+    <link rel="stylesheet" href="allfiles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="script.js"></script>
+    <title>RADIO ON</title>
+</head>
+<body>
+    <header class="menu">
+        <a href="home.html"><img src="img/radio on.jpg" alt="Home Radio On"></a>
+        <ul>
+            <li><a class="aktif" href="#">HOME</a></li>
+            <li><a href="daftar.html">DAFTAR RADIO</a></li>
+            <li><a href="profilstasiun.html">PROFIL STASIUN</a></li>
+            <li><a href="favorit.html">FAVORIT</a></li>
+        </ul>
+        <form>
+            <input class="ikon" type="image" src="img/searching.png">
+            <input class="search" type="text" placeholder="CARI RADIO" required>
+        </form>
+        <ul class="tombol">
+            <li><a href="radio.html"><img src="img/turn-onoff.png"></a></li>
+        </ul>
+        <div class="login">
+            <img src="img/log in.png">
+        </div>
+    </header>
+    <div class="utama">
+        <div class="tengah">
+            <div class="isi">
+                <h4 class="konten1">Rekomendasi</h4>
+                <p class="kata1">View All</p>
+                <div class="panjang1">
+                    <div class="rekomendasi">
+                        <img src="img/C radio.jpg" alt="cradio">
+                        <img src="img/Radio_Delta_FM.png" alt="radiodelta">
+                        <img src="img/Radio-Prambors.jpg" alt="radio">
+                        <img src="img/idola.jpg" alt="idola">
+                        <img src="img/rhema.jpg" alt="rhema">
+                    </div>
+                </div>
+                <h4 class="konten2">Sedang Siaran</h4>
+                <p class="kata2">View All</p>
+                <div class="panjang2">
+                    <div class="sedangsiaran">
+                        <img src="img/idola.jpg" alt="idola">
+                        <img src="img/gajahmada-fm.jpg" alt="gajahmada-fm">
+                        <img src="img/up radio.png" alt="up-radio">
+                        <img src="img/Radio_Delta_FM.png" alt="Radio_Delta_FM">
+                        <img src="img/Radio-Prambors.jpg" alt="Radio-Prambors">
+                    </div>
+                </div>
+                <h4 class="konten3">Sedang Didengar</h4>
+            </div>
+        </div>
+    </div>
+    <div class="pemutaran">
+        <div class="kotak">
+            <div id="daftar">
+                <div class="dengar">
+                    <img src="img/C radio.jpg" alt="cradio">
+                    <p>C Radio FM</p>
+                    <audio class="player" id="player" autoplay controls preload></audio>
+                </div>
+                <div class="ikon">
+                    <img src="img/ikon love.png">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        webradio.play_station("https://relay.cradio.co.id:7020/cradio.aac");
+    </script>
+    <footer>
+        <div>        
+            <h4 class="tentang">Tentang</h4>
+            <p>
+            RADIO ON merupakan platfrom radio secara online dimana pengguna bisa mendengarkan radio di seluruh radio Indonesia
+            </p>
+        </div>
+        <div class="kontak">        
+            <h4 class="kontak">Contact</h4>
+            <img src="img/fb.png" a href="">
+            <img src="img/instagram.png" a href="">
+        </div>
+        <div class="logo">
+            <img src="img/radio on.jpg" alt="logo">
+        </div>
+    </footer>
+</body>
+</html>

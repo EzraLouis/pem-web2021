@@ -1,0 +1,257 @@
+.panjang1{
+    position: absolute;
+    width: 2500px;
+    height: 280px;
+    left: 89px;
+    top: 204px;
+    
+    background: #C4C4C4;
+    box-shadow: 10px 8px 8px rgba(0, 0, 0, 0.75);
+    border-radius: 90px;
+}
+
+.panjang2{
+    position: absolute;
+    width: 2500px;
+    height: 280px;
+    left: 89px;
+    top: 559px;
+
+    background: #C4C4C4;
+    box-shadow: 10px 8px 8px rgba(0, 0, 0, 0.75);
+    border-radius: 90px;
+}
+
+.tengah .isi .kata1{
+    position: absolute;
+    width: 110px;
+    height: 29px;
+    left: 1710px;
+    top: 170px;
+
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 39px;
+
+    color: #000000;
+}
+
+.tengah .isi .kata2{
+    position: absolute;
+    width: 110px;
+    height: 29px;
+    left: 1710px;
+    top: 525px;
+
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 39px;
+
+    color: #000000;
+
+}
+
+
+footer .kontak img{
+    width: 50px;
+    margin: 25px;
+    align-items: baseline;
+}
+
+footer{
+    color: white;
+    display: flex;
+    background: black;
+    height: 130px;
+    width: 100%;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    padding: 5px;
+    position: absolute;
+    height: 221px;
+    left: 0px;
+    top: 1235px;
+}
+
+footer div .tentang{
+    width: 115.4px;
+    height: 14.2px;
+    left: 95px;
+    top: 849px;
+    
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    
+    color: #FFFFFF;
+}
+
+footer div p{
+    width: 219px;
+    height: 119px;
+    left: 95px;
+    top: 873px;
+    text-align: left;
+    margin-top: 12px;
+
+    font-family: Yaldevi Colombo SemiBold;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+
+    color: #FFFFFF;
+}
+
+footer div .kontak{
+    width: 115.4px;
+    height: 14.2px;
+    left: 458px;
+    top: 849px;
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+}
+
+footer .logo img{
+    width: 100%;
+}
+
+.tengah .isi .konten1{
+    position: absolute;
+    width: 181px;
+    height: 59px;
+    left: 102px;
+    top: 153px;
+
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 59px;
+    /* identical to box height */
+    color: #000000;
+}
+
+.tengah .isi .konten2{
+    position: absolute;
+    width: auto;
+    height: 59px;
+    left: 100px;
+    top: 500px;
+
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 59px;
+    /* identical to box height */
+    color: #000000;
+}
+
+.tengah .isi .konten3{
+    position: absolute;
+    width: auto;
+    height: 59px;
+    left: 100px;
+    top: 850px;
+
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 59px;
+    /* identical to box height */
+    color: #000000;
+}
+
+.panjang1 .rekomendasi img{
+    margin: 25px;
+    padding: 15px;
+    width: 10%;
+    height: 220px;
+    border-radius: 100%;
+}
+
+.panjang2 .sedangsiaran img{
+    margin: 25px;
+    padding: 15px;
+    width: 10%;
+    height: 220px;
+    border-radius: 100%;
+}
+
+#daftar .dengar img{
+    left: 34%;
+    top: 40px;
+    width: 150px;
+    border-radius: 100%;
+    position: absolute;
+
+    filter: drop-shadow(10px 8px 8px rgba(0, 0, 0, 0.6));
+}
+
+#daftar .dengar p{
+    left: 36%;
+    top: 2px;
+    position: absolute;
+
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 39px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+
+    text-shadow: 10px 8px 8px rgba(0, 0, 0, 0.6);
+}
+
+#daftar .ikon img{
+    position: absolute;
+    width: 10%;
+    margin: 5px;
+    padding: 5px;
+}
+
+.pemutaran{
+    position: absolute;
+    justify-content: center;
+    width: 500px;
+    height: 30%;
+    left: 100px;
+    bottom: -250px;
+
+    background: white;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    box-shadow: 10px 8px 8px rgba(0, 0, 0, 0.6);
+    border-radius: 45px;
+}
+
+audio{
+    position: absolute;
+    width: 95%;
+    left: 10px;
+    bottom: 35px;
+}

@@ -1,0 +1,177 @@
+footer .kontak img{
+    width: 50px;
+    margin: 25px;
+    align-items: baseline;
+}
+
+footer{
+    color: white;
+    display: flex;
+    background: black;
+    height: 130px;
+    width: 100%;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    padding: 5px;
+    position: absolute;
+    height: 221px;
+    left: 0px;
+    top: 1625px;
+}
+
+footer div .tentang{
+    width: 115.4px;
+    height: 14.2px;
+    left: 95px;
+    top: 849px;
+    
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    
+    color: #FFFFFF;
+}
+
+footer div p{
+    width: 219px;
+    height: 119px;
+    left: 95px;
+    top: 873px;
+    text-align: left;
+    margin-top: 12px;
+
+    font-family: Yaldevi Colombo SemiBold;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+
+    color: #FFFFFF;
+}
+
+footer div .kontak{
+    width: 115.4px;
+    height: 14.2px;
+    left: 458px;
+    top: 849px;
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+}
+
+footer .logo img{
+    width: 100%;
+}
+
+.tengah .isi h3{
+    margin: 1px;
+    padding: 10px;
+
+    position: absolute;
+    width: 100px;
+    height: 59px;
+    left: 100px;
+    top: 175px;
+
+    text-align: center;
+    align-items: center;
+    font-family: Tomorrow;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 38pt;
+    line-height: 58px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+}
+
+.isi .favorit{
+    position: absolute;
+    left: 100px;
+    top: 273px;
+    width: 91%;
+    height: 133%;
+
+    background: #C4C4C4;
+    box-shadow: 10px 8px 8px rgba(0, 0, 0, 0.6);
+    border-radius: 60px;
+}
+
+.isinya .sap1{
+    margin-left: 110px;    
+    margin-right: 110px;
+    margin-top: 5px;
+    padding: 15px 21px;
+    display: flex;
+    justify-content: center;
+}
+
+.isinya .sap1 img{
+    margin: 20px;
+    padding: 10px;
+    border-radius: 100%;
+    height: fit-content;
+    width: 20%;
+    height: 295px;
+}
+
+.isinya .sap2{
+    display: flex;
+    margin: 5px;
+    padding: 1px;
+    justify-content: center;
+}
+
+.isinya .sap2 p{
+    margin-left: 123px;
+    margin-right: 132px;
+    font-size: 14pt;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.isinya .sap3{
+    margin-left: 178px;    
+    margin-right: 110px;
+    margin-top: 5px;
+    padding: 15px 21px;
+    display: flex;
+    justify-content: left;
+}
+
+.isinya .sap3 img{
+    margin: 20px;
+    padding: 10px;
+    border-radius: 100%;
+    height: fit-content;
+    width: 20%;
+    height: 295px;
+}
+
+.isinya .sap4{
+    display: flex;
+    margin: 5px;
+    padding: 1px;
+    justify-content: left;
+}
+
+.isinya .sap4 p{
+    margin-left: 300px;
+    margin-right: 300px;
+    font-size: 14pt;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

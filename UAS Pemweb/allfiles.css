@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    background-color: #DEDEDE;
+    overflow-x: hidden;
+}
+
+.menu {
+    color: white;
+    display: flex;
+    background: black;
+    height: 134px;
+    width: 100%;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    padding: 5px;
+    position: static absolute;
+}
+
+header ul{
+    width: 35%;
+    display: flex;
+    list-style-type: none;
+    text-align: center;
+    justify-content: left;
+    padding: 3px;
+}
+
+header ul li a{
+    color: white;
+    margin: 10px;
+    font-size: 16pt;
+    padding: 0px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+header form{
+    margin: auto;
+    padding: 5px;
+    border-radius: 100px;
+    background-color: white;
+    width: 340px;
+    display: flex;
+    margin: 1px;
+}
+
+.ikon{
+    width: 10%;
+    padding: 1px;
+    background:white;
+    border-radius: 100px;
+    border:0px solid #dbdbdb;
+}
+
+.search{
+    width: 50%;
+    padding: 7px 12px;
+    background:white;
+    border-radius: 100px;
+    border:0px solid #dbdbdb;
+    color: black;
+}
+
+header .tombol img{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 1662px;
+    top: 41px;    
+}
+
+header .login img{
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    left: 1779px;
+    top: 35px;
+}
